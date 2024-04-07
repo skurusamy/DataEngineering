@@ -1,0 +1,8 @@
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.
+69.89.31.226
+inet addr:69.89.31.226
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.
+PING yahoo.com (98.139.180.149) 56(84) bytes of data.

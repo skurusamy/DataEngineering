@@ -1,0 +1,10 @@
+ID,Summary,alias,severity,published,package_name,ecosystem
+GHSA-75r3-38rh-pmxv,sojo vulnerable to stack exhaustion,['CVE-2023-34613'],HIGH,2023-06-14T15:30:38Z,net.sf.sojo:sojo,Maven
+GHSA-ff3m-68vj-h86p,PlantUML Server-Side Request Forgery vulnerability,['CVE-2023-3432'],HIGH,2023-06-27T15:30:29Z,net.sourceforge.plantuml:plantuml-mit,Maven
+GHSA-fj64-qprx-q7vq,genson vulnerable to stack exhaustion,['CVE-2023-34617'],HIGH,2023-06-14T15:30:38Z,com.owlike:genson,Maven
+GHSA-fjpj-2g6w-x25r,snappy-java's Integer Overflow vulnerability in compress leads to DoS,['CVE-2023-34454'],MODERATE,2023-06-15T16:28:08Z,org.xerial.snappy:snappy-java,Maven
+ID,Summary,alias,severity,published,package_name,ecosystem
+GHSA-75r3-38rh-pmxv,sojo vulnerable to stack exhaustion,['CVE-2023-34613'],HIGH,2023-06-14T15:30:38Z,net.sf.sojo:sojo,Maven
+GHSA-ff3m-68vj-h86p,PlantUML Server-Side Request Forgery vulnerability,['CVE-2023-3432'],HIGH,2023-06-27T15:30:29Z,net.sourceforge.plantuml:plantuml-mit,Maven
+GHSA-fj64-qprx-q7vq,genson vulnerable to stack exhaustion,['CVE-2023-34617'],HIGH,2023-06-14T15:30:38Z,com.owlike:genson,Maven
+GHSA-fjpj-2g6w-x25r,snappy-java's Integer Overflow vulnerability in compress leads to DoS,['CVE-2023-34454'],MODERATE,2023-06-15T16:28:08Z,org.xerial.snappy:snappy-java,Maven

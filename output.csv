@@ -1,0 +1,820 @@
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-75r3-38rh-pmxv|sojo vulnerable to stack exhaustion|An issue was discovered sojo through 1.1.1 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34613']|2023-06-27T21:19:30.589169Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T21:10:32Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34613'}, {'type': 'WEB', 'url': 'https://github.com/maddingo/sojo/issues/15'}, {'type': 'PACKAGE', 'url': 'https://github.com/maddingo/sojo'}]|[{'package': {'name': 'net.sf.sojo:sojo', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sf.sojo/sojo'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.1.1'}]}], 'versions': ['1.0.13', '1.0.5', '1.0.8', '1.1.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-75r3-38rh-pmxv/GHSA-75r3-38rh-pmxv.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-75r3-38rh-pmxv|sojo vulnerable to stack exhaustion|An issue was discovered sojo through 1.1.1 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34613']|2023-06-27T21:19:30.589169Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T21:10:32Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34613'}, {'type': 'WEB', 'url': 'https://github.com/maddingo/sojo/issues/15'}, {'type': 'PACKAGE', 'url': 'https://github.com/maddingo/sojo'}]|[{'package': {'name': 'net.sf.sojo:sojo', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sf.sojo/sojo'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.1.1'}]}], 'versions': ['1.0.13', '1.0.5', '1.0.8', '1.1.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-75r3-38rh-pmxv/GHSA-75r3-38rh-pmxv.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-ff3m-68vj-h86p|PlantUML Server-Side Request Forgery vulnerability|Server-Side Request Forgery (SSRF) in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3432']|2023-06-27T17:33:44.433808Z|2023-06-27T15:30:29Z|{'github_reviewed_at': '2023-06-27T17:15:16Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-918'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3432'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/b32500bb61ae617bb312496d6d832e4be8190797'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/8ac3316f-431c-468d-87e4-3dafff2ecf51'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-ff3m-68vj-h86p/GHSA-ff3m-68vj-h86p.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N'}]
+GHSA-p2mf-q26j-3xmh|PlantUML Improper Access Control vulnerability|Improper Access Control in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3431']|2023-06-27T17:33:21.617609Z|2023-06-27T15:30:28Z|{'github_reviewed_at': '2023-06-27T17:15:10Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-284'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3431'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/fa741f95-b53c-4ed7-b157-e32c5145164c'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-p2mf-q26j-3xmh/GHSA-p2mf-q26j-3xmh.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-fj64-qprx-q7vq|genson vulnerable to stack exhaustion|An issue was discovered genson through 1.6 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34617']|2023-06-23T19:49:18.171955Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T20:44:55Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34617'}, {'type': 'WEB', 'url': 'https://github.com/owlike/genson/issues/191'}, {'type': 'PACKAGE', 'url': 'https://github.com/owlike/genson'}]|[{'package': {'name': 'com.owlike:genson', 'ecosystem': 'Maven', 'purl': 'pkg:maven/com.owlike/genson'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.6'}]}], 'versions': ['0.9', '0.91', '0.92', '0.93', '0.94', '0.95', '0.96', '0.97', '0.98', '0.99', '1.0', '1.0-RC', '1.1', '1.1-RC1', '1.1-RC2', '1.2', '1.2-RC1', '1.3', '1.4', '1.5', '1.6'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fj64-qprx-q7vq/GHSA-fj64-qprx-q7vq.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-fjpj-2g6w-x25r|snappy-java's Integer Overflow vulnerability in compress leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing an unrecoverable fatal error.
+## Impact
+Denial of Service
+## Description
+The function [compress(char[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169) in the file [Snappy.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java) receives an array of characters and compresses it. It does so by multiplying the length by 2 and passing it to the [rawCompress](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422) function.
+
+```java
+public static byte[] compress(char[] input)
+            throws IOException
+    {
+        return rawCompress(input, input.length * 2); // char uses 2 bytes
+    }
+
+```
+
+Since the length is not tested, the multiplication by two can cause an integer overflow and become negative. The rawCompress function then uses the received length and passes it to the natively compiled maxCompressedLength function, using the returned value to allocate a byte array.
+
+```java
+    public static byte[] rawCompress(Object data, int byteSize)
+            throws IOException
+    {
+        byte[] buf = new byte[Snappy.maxCompressedLength(byteSize)];
+        int compressedByteSize = impl.rawCompress(data, 0, byteSize, buf, 0);
+        byte[] result = new byte[compressedByteSize];
+        System.arraycopy(buf, 0, result, 0, compressedByteSize);
+        return result;
+    }
+
+```
+
+Since the maxCompressedLength function treats the length as an unsigned integer, it doesn’t care that it is negative, and it returns a valid value, which is casted to a signed integer by the Java engine. If the result is negative, a “java.lang.NegativeArraySizeException” exception will be raised while trying to allocate the array “buf”. On the other side, if the result is positive, the “buf” array will successfully be allocated, but its size might be too small to use for the compression, causing a fatal Access Violation error.
+The same issue exists also when using the “compress” functions that receive double, float, int, long and short, each using a different multiplier that may cause the same issue. The issue most likely won’t occur when using a byte array, since creating a byte array of size 0x80000000 (or any other negative value) is impossible in the first place.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x40000000];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+
+```
+
+The program will crash, creating crashdumps and showing the following error (or similar):
+
+```
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000063a01c20, pid=21164, tid=508
+#
+.......
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x3fffffff];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+```
+
+The program will crash with the following error (or similar), since the maxCompressedLength returns a value that is interpreted as negative by java:
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1789569677
+	at org.xerial.snappy.Snappy.rawCompress(Snappy.java:425)
+	at org.xerial.snappy.Snappy.compress(Snappy.java:172)
+	at org.example.Main.main(Main.java:10)
+
+```"|['CVE-2023-34454']|2023-06-27T22:03:17.645553Z|2023-06-15T16:28:08Z|{'github_reviewed_at': '2023-06-15T16:28:08Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-fjpj-2g6w-x25r'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34454'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/d0042551e4a3509a725038eb9b2ad1f683674d94'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fjpj-2g6w-x25r/GHSA-fjpj-2g6w-x25r.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-pqr6-cmr2-h8hf|snappy-java's Integer Overflow vulnerability in shuffle leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing a fatal error.
+## Impact
+Denial of Service
+## Description
+The function [shuffle(int[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107) in the file [BitShuffle.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java) receives an array of integers and applies a bit shuffle on it. It does so by multiplying the length by 4 and passing it to the natively compiled shuffle function.
+
+```java
+public static byte[] shuffle(int[] input) throws IOException {
+        byte[] output = new byte[input.length * 4];
+        int numProcessed = impl.shuffle(input, 0, 4, input.length * 4, output, 0);
+        assert(numProcessed == input.length * 4);
+        return output;
+    }
+
+```
+
+Since the length is not tested, the multiplication by four can cause an integer overflow and become a smaller value than the true size, or even zero or negative. In the case of a negative value, a “java.lang.NegativeArraySizeException” exception will raise, which can crash the program. In a case of a value that is zero or too small, the code that afterwards references the shuffled array will assume a bigger size of the array, which might cause exceptions such as “java.lang.ArrayIndexOutOfBoundsException”.
+The same issue exists also when using the “shuffle” functions that receive a double, float, long and short, each using a different multiplier that may cause the same issue.
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x40000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+        System.out.println(shuffled[0]);
+    }
+}
+
+```
+The program will crash, showing the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.example.Main.main(Main.java:12)
+
+Process finished with exit code 1
+
+```
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x20000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+    }
+}
+
+```
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -2147483648
+	at org.xerial.snappy.BitShuffle.shuffle(BitShuffle.java:108)
+	at org.example.Main.main(Main.java:11)
+```"|['CVE-2023-34453']|2023-06-27T22:03:32.159050Z|2023-06-15T16:13:20Z|{'github_reviewed_at': '2023-06-15T16:13:20Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-pqr6-cmr2-h8hf'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34453'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/820e2e074c58748b41dbd547f4edba9e108ad905'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-pqr6-cmr2-h8hf/GHSA-pqr6-cmr2-h8hf.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-qcwq-55hx-v3vh|snappy-java's unchecked chunk length leads to DoS|"## Summary
+Due to use of an unchecked chunk length, an unrecoverable fatal error can occur.
+## Impact
+Denial of Service
+## Description
+The code in the function [hasNextChunk](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388) in the file [SnappyInputStream.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java) checks if a given stream has more chunks to read. It does that by attempting to read 4 bytes. If it wasn’t possible to read the 4 bytes, the function returns false. Otherwise, if 4 bytes were available, the code treats them as the length of the next chunk.
+
+
+
+```java
+        int readBytes = readNext(header, 0, 4);
+        if (readBytes < 4) {
+            return false;
+        }
+
+        int chunkSize = SnappyOutputStream.readInt(header, 0);
+        if (chunkSize == SnappyCodec.MAGIC_HEADER_HEAD) {
+            .........
+        }
+
+        // extend the compressed data buffer size
+        if (compressed == null || chunkSize > compressed.length) {
+            compressed = new byte[chunkSize];
+        }
+
+```
+
+In the case that the “compressed” variable is null, a byte array is allocated with the size given by the input data. Since the code doesn’t test the legality of the “chunkSize” variable, it is possible to pass a negative number (such as 0xFFFFFFFF which is -1), which will cause the code to raise a “java.lang.NegativeArraySizeException” exception. A worse case would happen when passing a huge positive value (such as 0x7FFFFFFF), which would raise the fatal “java.lang.OutOfMemoryError” error.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0x7f, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        try {
+            in.read(out);
+        }
+        catch (Exception ignored) {
+
+        }
+    }
+}
+```
+
+The program will crash with the following error (or similar), even though there is a catch clause, since “OutOfMemoryError” does not get caught by catching the “Exception” class:
+
+```
+Exception in thread ""main"" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0xff, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        in.read(out);
+    }
+}
+```
+
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+It is important to note that these examples were written by using a flow that is generally used by developers, and can be seen for example in the Apache project “flume”: https://github.com/apache/flume/blob/f9dbb2de255d59e35e3668a5c6c66a268a055207/flume-ng-channels/flume-file-channel/src/main/java/org/apache/flume/channel/file/Serialization.java#L278. Since they used try-catch, the “NegativeArraySizeException” exception won’t harm their users, but the “OutOfMemoryError” error can."|['CVE-2023-34455']|2023-06-16T17:21:05.006494Z|2023-06-15T17:15:06Z|{'github_reviewed_at': '2023-06-15T17:15:06Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-770'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-qcwq-55hx-v3vh'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34455'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/3bf67857fcf70d9eea56eed4af7c925671e8eaea'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-qcwq-55hx-v3vh/GHSA-qcwq-55hx-v3vh.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-75r3-38rh-pmxv|sojo vulnerable to stack exhaustion|An issue was discovered sojo through 1.1.1 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34613']|2023-06-27T21:19:30.589169Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T21:10:32Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34613'}, {'type': 'WEB', 'url': 'https://github.com/maddingo/sojo/issues/15'}, {'type': 'PACKAGE', 'url': 'https://github.com/maddingo/sojo'}]|[{'package': {'name': 'net.sf.sojo:sojo', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sf.sojo/sojo'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.1.1'}]}], 'versions': ['1.0.13', '1.0.5', '1.0.8', '1.1.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-75r3-38rh-pmxv/GHSA-75r3-38rh-pmxv.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-ff3m-68vj-h86p|PlantUML Server-Side Request Forgery vulnerability|Server-Side Request Forgery (SSRF) in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3432']|2023-06-27T17:33:44.433808Z|2023-06-27T15:30:29Z|{'github_reviewed_at': '2023-06-27T17:15:16Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-918'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3432'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/b32500bb61ae617bb312496d6d832e4be8190797'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/8ac3316f-431c-468d-87e4-3dafff2ecf51'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-ff3m-68vj-h86p/GHSA-ff3m-68vj-h86p.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N'}]
+GHSA-p2mf-q26j-3xmh|PlantUML Improper Access Control vulnerability|Improper Access Control in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3431']|2023-06-27T17:33:21.617609Z|2023-06-27T15:30:28Z|{'github_reviewed_at': '2023-06-27T17:15:10Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-284'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3431'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/fa741f95-b53c-4ed7-b157-e32c5145164c'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-p2mf-q26j-3xmh/GHSA-p2mf-q26j-3xmh.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-fj64-qprx-q7vq|genson vulnerable to stack exhaustion|An issue was discovered genson through 1.6 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34617']|2023-06-23T19:49:18.171955Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T20:44:55Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34617'}, {'type': 'WEB', 'url': 'https://github.com/owlike/genson/issues/191'}, {'type': 'PACKAGE', 'url': 'https://github.com/owlike/genson'}]|[{'package': {'name': 'com.owlike:genson', 'ecosystem': 'Maven', 'purl': 'pkg:maven/com.owlike/genson'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.6'}]}], 'versions': ['0.9', '0.91', '0.92', '0.93', '0.94', '0.95', '0.96', '0.97', '0.98', '0.99', '1.0', '1.0-RC', '1.1', '1.1-RC1', '1.1-RC2', '1.2', '1.2-RC1', '1.3', '1.4', '1.5', '1.6'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fj64-qprx-q7vq/GHSA-fj64-qprx-q7vq.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+id|summary|details|aliases|modified|published|database_specific|references|affected|schema_version|severity
+GHSA-fjpj-2g6w-x25r|snappy-java's Integer Overflow vulnerability in compress leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing an unrecoverable fatal error.
+## Impact
+Denial of Service
+## Description
+The function [compress(char[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169) in the file [Snappy.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java) receives an array of characters and compresses it. It does so by multiplying the length by 2 and passing it to the [rawCompress](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422) function.
+
+```java
+public static byte[] compress(char[] input)
+            throws IOException
+    {
+        return rawCompress(input, input.length * 2); // char uses 2 bytes
+    }
+
+```
+
+Since the length is not tested, the multiplication by two can cause an integer overflow and become negative. The rawCompress function then uses the received length and passes it to the natively compiled maxCompressedLength function, using the returned value to allocate a byte array.
+
+```java
+    public static byte[] rawCompress(Object data, int byteSize)
+            throws IOException
+    {
+        byte[] buf = new byte[Snappy.maxCompressedLength(byteSize)];
+        int compressedByteSize = impl.rawCompress(data, 0, byteSize, buf, 0);
+        byte[] result = new byte[compressedByteSize];
+        System.arraycopy(buf, 0, result, 0, compressedByteSize);
+        return result;
+    }
+
+```
+
+Since the maxCompressedLength function treats the length as an unsigned integer, it doesn’t care that it is negative, and it returns a valid value, which is casted to a signed integer by the Java engine. If the result is negative, a “java.lang.NegativeArraySizeException” exception will be raised while trying to allocate the array “buf”. On the other side, if the result is positive, the “buf” array will successfully be allocated, but its size might be too small to use for the compression, causing a fatal Access Violation error.
+The same issue exists also when using the “compress” functions that receive double, float, int, long and short, each using a different multiplier that may cause the same issue. The issue most likely won’t occur when using a byte array, since creating a byte array of size 0x80000000 (or any other negative value) is impossible in the first place.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x40000000];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+
+```
+
+The program will crash, creating crashdumps and showing the following error (or similar):
+
+```
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000063a01c20, pid=21164, tid=508
+#
+.......
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x3fffffff];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+```
+
+The program will crash with the following error (or similar), since the maxCompressedLength returns a value that is interpreted as negative by java:
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1789569677
+	at org.xerial.snappy.Snappy.rawCompress(Snappy.java:425)
+	at org.xerial.snappy.Snappy.compress(Snappy.java:172)
+	at org.example.Main.main(Main.java:10)
+
+```"|['CVE-2023-34454']|2023-06-27T22:03:17.645553Z|2023-06-15T16:28:08Z|{'github_reviewed_at': '2023-06-15T16:28:08Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-fjpj-2g6w-x25r'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34454'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/d0042551e4a3509a725038eb9b2ad1f683674d94'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fjpj-2g6w-x25r/GHSA-fjpj-2g6w-x25r.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-pqr6-cmr2-h8hf|snappy-java's Integer Overflow vulnerability in shuffle leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing a fatal error.
+## Impact
+Denial of Service
+## Description
+The function [shuffle(int[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107) in the file [BitShuffle.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java) receives an array of integers and applies a bit shuffle on it. It does so by multiplying the length by 4 and passing it to the natively compiled shuffle function.
+
+```java
+public static byte[] shuffle(int[] input) throws IOException {
+        byte[] output = new byte[input.length * 4];
+        int numProcessed = impl.shuffle(input, 0, 4, input.length * 4, output, 0);
+        assert(numProcessed == input.length * 4);
+        return output;
+    }
+
+```
+
+Since the length is not tested, the multiplication by four can cause an integer overflow and become a smaller value than the true size, or even zero or negative. In the case of a negative value, a “java.lang.NegativeArraySizeException” exception will raise, which can crash the program. In a case of a value that is zero or too small, the code that afterwards references the shuffled array will assume a bigger size of the array, which might cause exceptions such as “java.lang.ArrayIndexOutOfBoundsException”.
+The same issue exists also when using the “shuffle” functions that receive a double, float, long and short, each using a different multiplier that may cause the same issue.
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x40000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+        System.out.println(shuffled[0]);
+    }
+}
+
+```
+The program will crash, showing the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.example.Main.main(Main.java:12)
+
+Process finished with exit code 1
+
+```
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x20000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+    }
+}
+
+```
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -2147483648
+	at org.xerial.snappy.BitShuffle.shuffle(BitShuffle.java:108)
+	at org.example.Main.main(Main.java:11)
+```"|['CVE-2023-34453']|2023-06-27T22:03:32.159050Z|2023-06-15T16:13:20Z|{'github_reviewed_at': '2023-06-15T16:13:20Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-pqr6-cmr2-h8hf'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34453'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/820e2e074c58748b41dbd547f4edba9e108ad905'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-pqr6-cmr2-h8hf/GHSA-pqr6-cmr2-h8hf.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-qcwq-55hx-v3vh|snappy-java's unchecked chunk length leads to DoS|"## Summary
+Due to use of an unchecked chunk length, an unrecoverable fatal error can occur.
+## Impact
+Denial of Service
+## Description
+The code in the function [hasNextChunk](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388) in the file [SnappyInputStream.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java) checks if a given stream has more chunks to read. It does that by attempting to read 4 bytes. If it wasn’t possible to read the 4 bytes, the function returns false. Otherwise, if 4 bytes were available, the code treats them as the length of the next chunk.
+
+
+
+```java
+        int readBytes = readNext(header, 0, 4);
+        if (readBytes < 4) {
+            return false;
+        }
+
+        int chunkSize = SnappyOutputStream.readInt(header, 0);
+        if (chunkSize == SnappyCodec.MAGIC_HEADER_HEAD) {
+            .........
+        }
+
+        // extend the compressed data buffer size
+        if (compressed == null || chunkSize > compressed.length) {
+            compressed = new byte[chunkSize];
+        }
+
+```
+
+In the case that the “compressed” variable is null, a byte array is allocated with the size given by the input data. Since the code doesn’t test the legality of the “chunkSize” variable, it is possible to pass a negative number (such as 0xFFFFFFFF which is -1), which will cause the code to raise a “java.lang.NegativeArraySizeException” exception. A worse case would happen when passing a huge positive value (such as 0x7FFFFFFF), which would raise the fatal “java.lang.OutOfMemoryError” error.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0x7f, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        try {
+            in.read(out);
+        }
+        catch (Exception ignored) {
+
+        }
+    }
+}
+```
+
+The program will crash with the following error (or similar), even though there is a catch clause, since “OutOfMemoryError” does not get caught by catching the “Exception” class:
+
+```
+Exception in thread ""main"" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0xff, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        in.read(out);
+    }
+}
+```
+
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+It is important to note that these examples were written by using a flow that is generally used by developers, and can be seen for example in the Apache project “flume”: https://github.com/apache/flume/blob/f9dbb2de255d59e35e3668a5c6c66a268a055207/flume-ng-channels/flume-file-channel/src/main/java/org/apache/flume/channel/file/Serialization.java#L278. Since they used try-catch, the “NegativeArraySizeException” exception won’t harm their users, but the “OutOfMemoryError” error can."|['CVE-2023-34455']|2023-06-16T17:21:05.006494Z|2023-06-15T17:15:06Z|{'github_reviewed_at': '2023-06-15T17:15:06Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-770'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-qcwq-55hx-v3vh'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34455'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/3bf67857fcf70d9eea56eed4af7c925671e8eaea'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-qcwq-55hx-v3vh/GHSA-qcwq-55hx-v3vh.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-75r3-38rh-pmxv|sojo vulnerable to stack exhaustion|An issue was discovered sojo through 1.1.1 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34613']|2023-06-27T21:19:30.589169Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T21:10:32Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34613'}, {'type': 'WEB', 'url': 'https://github.com/maddingo/sojo/issues/15'}, {'type': 'PACKAGE', 'url': 'https://github.com/maddingo/sojo'}]|[{'package': {'name': 'net.sf.sojo:sojo', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sf.sojo/sojo'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.1.1'}]}], 'versions': ['1.0.13', '1.0.5', '1.0.8', '1.1.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-75r3-38rh-pmxv/GHSA-75r3-38rh-pmxv.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-ff3m-68vj-h86p|PlantUML Server-Side Request Forgery vulnerability|Server-Side Request Forgery (SSRF) in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3432']|2023-06-27T17:33:44.433808Z|2023-06-27T15:30:29Z|{'github_reviewed_at': '2023-06-27T17:15:16Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-918'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3432'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/b32500bb61ae617bb312496d6d832e4be8190797'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/8ac3316f-431c-468d-87e4-3dafff2ecf51'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-ff3m-68vj-h86p/GHSA-ff3m-68vj-h86p.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N'}]
+GHSA-p2mf-q26j-3xmh|PlantUML Improper Access Control vulnerability|Improper Access Control in GitHub repository plantuml/plantuml prior to 1.2023.9.|['CVE-2023-3431']|2023-06-27T17:33:21.617609Z|2023-06-27T15:30:28Z|{'github_reviewed_at': '2023-06-27T17:15:10Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-284'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-3431'}, {'type': 'WEB', 'url': 'https://github.com/plantuml/plantuml/commit/fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e'}, {'type': 'PACKAGE', 'url': 'https://github.com/plantuml/plantuml'}, {'type': 'WEB', 'url': 'https://huntr.dev/bounties/fa741f95-b53c-4ed7-b157-e32c5145164c'}]|[{'package': {'name': 'net.sourceforge.plantuml:plantuml-mit', 'ecosystem': 'Maven', 'purl': 'pkg:maven/net.sourceforge.plantuml/plantuml-mit'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.2023.9'}]}], 'versions': ['1.2023.7', '1.2023.8'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-p2mf-q26j-3xmh/GHSA-p2mf-q26j-3xmh.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N'}]
+GHSA-fj64-qprx-q7vq|genson vulnerable to stack exhaustion|An issue was discovered genson through 1.6 allows attackers to cause a denial of service or other unspecified impacts via crafted objects that deeply nested structures.|['CVE-2023-34617']|2023-06-23T19:49:18.171955Z|2023-06-14T15:30:38Z|{'github_reviewed_at': '2023-06-14T20:44:55Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-400', 'CWE-787'], 'nvd_published_at': None}|[{'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34617'}, {'type': 'WEB', 'url': 'https://github.com/owlike/genson/issues/191'}, {'type': 'PACKAGE', 'url': 'https://github.com/owlike/genson'}]|[{'package': {'name': 'com.owlike:genson', 'ecosystem': 'Maven', 'purl': 'pkg:maven/com.owlike/genson'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'last_affected': '1.6'}]}], 'versions': ['0.9', '0.91', '0.92', '0.93', '0.94', '0.95', '0.96', '0.97', '0.98', '0.99', '1.0', '1.0-RC', '1.1', '1.1-RC1', '1.1-RC2', '1.2', '1.2-RC1', '1.3', '1.4', '1.5', '1.6'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fj64-qprx-q7vq/GHSA-fj64-qprx-q7vq.json'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-fjpj-2g6w-x25r|snappy-java's Integer Overflow vulnerability in compress leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing an unrecoverable fatal error.
+## Impact
+Denial of Service
+## Description
+The function [compress(char[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169) in the file [Snappy.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java) receives an array of characters and compresses it. It does so by multiplying the length by 2 and passing it to the [rawCompress](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422) function.
+
+```java
+public static byte[] compress(char[] input)
+            throws IOException
+    {
+        return rawCompress(input, input.length * 2); // char uses 2 bytes
+    }
+
+```
+
+Since the length is not tested, the multiplication by two can cause an integer overflow and become negative. The rawCompress function then uses the received length and passes it to the natively compiled maxCompressedLength function, using the returned value to allocate a byte array.
+
+```java
+    public static byte[] rawCompress(Object data, int byteSize)
+            throws IOException
+    {
+        byte[] buf = new byte[Snappy.maxCompressedLength(byteSize)];
+        int compressedByteSize = impl.rawCompress(data, 0, byteSize, buf, 0);
+        byte[] result = new byte[compressedByteSize];
+        System.arraycopy(buf, 0, result, 0, compressedByteSize);
+        return result;
+    }
+
+```
+
+Since the maxCompressedLength function treats the length as an unsigned integer, it doesn’t care that it is negative, and it returns a valid value, which is casted to a signed integer by the Java engine. If the result is negative, a “java.lang.NegativeArraySizeException” exception will be raised while trying to allocate the array “buf”. On the other side, if the result is positive, the “buf” array will successfully be allocated, but its size might be too small to use for the compression, causing a fatal Access Violation error.
+The same issue exists also when using the “compress” functions that receive double, float, int, long and short, each using a different multiplier that may cause the same issue. The issue most likely won’t occur when using a byte array, since creating a byte array of size 0x80000000 (or any other negative value) is impossible in the first place.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x40000000];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+
+```
+
+The program will crash, creating crashdumps and showing the following error (or similar):
+
+```
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000063a01c20, pid=21164, tid=508
+#
+.......
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.Snappy;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        char[] uncompressed = new char[0x3fffffff];
+        byte[] compressed = Snappy.compress(uncompressed);
+    }
+}
+```
+
+The program will crash with the following error (or similar), since the maxCompressedLength returns a value that is interpreted as negative by java:
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1789569677
+	at org.xerial.snappy.Snappy.rawCompress(Snappy.java:425)
+	at org.xerial.snappy.Snappy.compress(Snappy.java:172)
+	at org.example.Main.main(Main.java:10)
+
+```"|['CVE-2023-34454']|2023-06-27T22:03:17.645553Z|2023-06-15T16:28:08Z|{'github_reviewed_at': '2023-06-15T16:28:08Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-fjpj-2g6w-x25r'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34454'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/d0042551e4a3509a725038eb9b2ad1f683674d94'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L169'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/Snappy.java#L422'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/Snappy.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-fjpj-2g6w-x25r/GHSA-fjpj-2g6w-x25r.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-pqr6-cmr2-h8hf|snappy-java's Integer Overflow vulnerability in shuffle leads to DoS|"## Summary
+Due to unchecked multiplications, an integer overflow may occur, causing a fatal error.
+## Impact
+Denial of Service
+## Description
+The function [shuffle(int[] input)](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107) in the file [BitShuffle.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java) receives an array of integers and applies a bit shuffle on it. It does so by multiplying the length by 4 and passing it to the natively compiled shuffle function.
+
+```java
+public static byte[] shuffle(int[] input) throws IOException {
+        byte[] output = new byte[input.length * 4];
+        int numProcessed = impl.shuffle(input, 0, 4, input.length * 4, output, 0);
+        assert(numProcessed == input.length * 4);
+        return output;
+    }
+
+```
+
+Since the length is not tested, the multiplication by four can cause an integer overflow and become a smaller value than the true size, or even zero or negative. In the case of a negative value, a “java.lang.NegativeArraySizeException” exception will raise, which can crash the program. In a case of a value that is zero or too small, the code that afterwards references the shuffled array will assume a bigger size of the array, which might cause exceptions such as “java.lang.ArrayIndexOutOfBoundsException”.
+The same issue exists also when using the “shuffle” functions that receive a double, float, long and short, each using a different multiplier that may cause the same issue.
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x40000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+        System.out.println(shuffled[0]);
+    }
+}
+
+```
+The program will crash, showing the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.example.Main.main(Main.java:12)
+
+Process finished with exit code 1
+
+```
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.BitShuffle;
+
+import java.io.*;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        int[] original = new int[0x20000000];
+        byte[] shuffled = BitShuffle.shuffle(original);
+    }
+}
+
+```
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -2147483648
+	at org.xerial.snappy.BitShuffle.shuffle(BitShuffle.java:108)
+	at org.example.Main.main(Main.java:11)
+```"|['CVE-2023-34453']|2023-06-27T22:03:32.159050Z|2023-06-15T16:13:20Z|{'github_reviewed_at': '2023-06-15T16:13:20Z', 'github_reviewed': True, 'severity': 'MODERATE', 'cwe_ids': ['CWE-190'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-pqr6-cmr2-h8hf'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34453'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/820e2e074c58748b41dbd547f4edba9e108ad905'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/BitShuffle.java#L107'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/BitShuffle.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-pqr6-cmr2-h8hf/GHSA-pqr6-cmr2-h8hf.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
+GHSA-qcwq-55hx-v3vh|snappy-java's unchecked chunk length leads to DoS|"## Summary
+Due to use of an unchecked chunk length, an unrecoverable fatal error can occur.
+## Impact
+Denial of Service
+## Description
+The code in the function [hasNextChunk](https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388) in the file [SnappyInputStream.java](https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java) checks if a given stream has more chunks to read. It does that by attempting to read 4 bytes. If it wasn’t possible to read the 4 bytes, the function returns false. Otherwise, if 4 bytes were available, the code treats them as the length of the next chunk.
+
+
+
+```java
+        int readBytes = readNext(header, 0, 4);
+        if (readBytes < 4) {
+            return false;
+        }
+
+        int chunkSize = SnappyOutputStream.readInt(header, 0);
+        if (chunkSize == SnappyCodec.MAGIC_HEADER_HEAD) {
+            .........
+        }
+
+        // extend the compressed data buffer size
+        if (compressed == null || chunkSize > compressed.length) {
+            compressed = new byte[chunkSize];
+        }
+
+```
+
+In the case that the “compressed” variable is null, a byte array is allocated with the size given by the input data. Since the code doesn’t test the legality of the “chunkSize” variable, it is possible to pass a negative number (such as 0xFFFFFFFF which is -1), which will cause the code to raise a “java.lang.NegativeArraySizeException” exception. A worse case would happen when passing a huge positive value (such as 0x7FFFFFFF), which would raise the fatal “java.lang.OutOfMemoryError” error.
+
+
+## Steps To Reproduce
+Compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0x7f, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        try {
+            in.read(out);
+        }
+        catch (Exception ignored) {
+
+        }
+    }
+}
+```
+
+The program will crash with the following error (or similar), even though there is a catch clause, since “OutOfMemoryError” does not get caught by catching the “Exception” class:
+
+```
+Exception in thread ""main"" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+Alternatively - compile and run the following code:
+
+```java
+package org.example;
+import org.xerial.snappy.SnappyInputStream;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0,(byte) 0xff, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        SnappyInputStream in = new SnappyInputStream(new ByteArrayInputStream(data));
+        byte[] out = new byte[50];
+        in.read(out);
+    }
+}
+```
+
+The program will crash with the following error (or similar):
+
+```
+Exception in thread ""main"" java.lang.NegativeArraySizeException: -1
+	at org.xerial.snappy.SnappyInputStream.hasNextChunk(SnappyInputStream.java:422)
+	at org.xerial.snappy.SnappyInputStream.read(SnappyInputStream.java:167)
+	at java.base/java.io.InputStream.read(InputStream.java:217)
+	at org.example.Main.main(Main.java:12)
+
+```
+
+
+It is important to note that these examples were written by using a flow that is generally used by developers, and can be seen for example in the Apache project “flume”: https://github.com/apache/flume/blob/f9dbb2de255d59e35e3668a5c6c66a268a055207/flume-ng-channels/flume-file-channel/src/main/java/org/apache/flume/channel/file/Serialization.java#L278. Since they used try-catch, the “NegativeArraySizeException” exception won’t harm their users, but the “OutOfMemoryError” error can."|['CVE-2023-34455']|2023-06-16T17:21:05.006494Z|2023-06-15T17:15:06Z|{'github_reviewed_at': '2023-06-15T17:15:06Z', 'github_reviewed': True, 'severity': 'HIGH', 'cwe_ids': ['CWE-770'], 'nvd_published_at': None}|[{'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/security/advisories/GHSA-qcwq-55hx-v3vh'}, {'type': 'ADVISORY', 'url': 'https://nvd.nist.gov/vuln/detail/CVE-2023-34455'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/commit/3bf67857fcf70d9eea56eed4af7c925671e8eaea'}, {'type': 'PACKAGE', 'url': 'https://github.com/xerial/snappy-java'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/05c39b2ca9b5b7b39611529cc302d3d796329611/src/main/java/org/xerial/snappy/SnappyInputStream.java#L388'}, {'type': 'WEB', 'url': 'https://github.com/xerial/snappy-java/blob/master/src/main/java/org/xerial/snappy/SnappyInputStream.java'}]|[{'package': {'name': 'org.xerial.snappy:snappy-java', 'ecosystem': 'Maven', 'purl': 'pkg:maven/org.xerial.snappy/snappy-java'}, 'ranges': [{'type': 'ECOSYSTEM', 'events': [{'introduced': '0'}, {'fixed': '1.1.10.1'}]}], 'versions': ['1.0.1-rc1', '1.0.1-rc2', '1.0.1-rc3', '1.0.1-rc4', '1.0.3', '1.0.3-rc1', '1.0.3-rc2', '1.0.3-rc3', '1.0.3-rc4', '1.0.3.1', '1.0.3.2', '1.0.3.3', '1.0.4', '1.0.4.1', '1.0.5', '1.0.5-M1', '1.0.5-M2', '1.0.5-M3', '1.0.5-M4', '1.0.5.1', '1.0.5.2', '1.0.5.3', '1.0.5.4', '1.1.0', '1.1.0-M1', '1.1.0-M2', '1.1.0-M3', '1.1.0-M4', '1.1.0.1', '1.1.1', '1.1.1-M1', '1.1.1-M2', '1.1.1-M3', '1.1.1-M4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '1.1.1.4', '1.1.1.5', '1.1.1.6', '1.1.1.7', '1.1.10.0', '1.1.2', '1.1.2-M1', '1.1.2-RC1', '1.1.2-RC2', '1.1.2-RC3', '1.1.2.1', '1.1.2.2', '1.1.2.3', '1.1.2.4', '1.1.2.5', '1.1.2.6', '1.1.3-M1', '1.1.3-M2', '1.1.4', '1.1.4-M1', '1.1.4-M2', '1.1.4-M3', '1.1.7', '1.1.7.1', '1.1.7.2', '1.1.7.3', '1.1.7.4', '1.1.7.5', '1.1.7.6', '1.1.7.7', '1.1.7.8', '1.1.8', '1.1.8.1', '1.1.8.2', '1.1.8.3', '1.1.8.4', '1.1.9.0', '1.1.9.1'], 'database_specific': {'source': 'https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-qcwq-55hx-v3vh/GHSA-qcwq-55hx-v3vh.json', 'last_known_affected_version_range': '<= 1.1.10.0'}}]|1.4.0|[{'type': 'CVSS_V3', 'score': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H'}]
